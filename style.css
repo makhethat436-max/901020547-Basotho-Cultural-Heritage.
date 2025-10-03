@@ -1,0 +1,105 @@
+body {
+font-family: Arial;
+font-size: 18px;
+margin-left: 10px;
+margin-right: 10px;
+background-color:gray;
+color: black;
+line-height: 1.5;
+padding: 50px;
+text-align: auto;
+}
+.navbar>ul{
+background-color: whitesmoke;
+list-style-type: none;
+margin: 10px;
+padding: 10px;
+overflow: hidden;
+}
+
+
+.highlight{
+background-color: light-green;
+}
+
+.navbar li{
+padding: 5px;
+display: inline-block;
+}
+
+.navbar a{
+text-decoration: none;
+
+}
+
+.navbar a:hover{
+background-color: #146beb;
+}
+
+
+
+#contact-form{
+max-width: 500px;
+margin: 40px auto;
+padding: 50px;
+background-color:#f9f9f9 ;
+border: 1px solid #ccc;
+box-shadow:0 PX 2px 4px rgba(0, 0, 0, 1.0);
+}
+
+label {
+
+display: flex;
+margin-bottom: 30px
+}
+
+input:focus,textarea: focus{
+
+border-color: #4CAF50;
+box-shadow: none;
+}
+
+.flex-container{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.flex-item{
+
+background-color: light-green;
+padding: 20px;
+margin: 20px;
+}
+
+.attire-item{
+background-color: none;
+border-radius: 8px;
+box-shadow: 0 1px rgba(0, 0, 0, 0.6);
+padding: 10px;
+text-align: center;
+margin: 50px;
+
+
+}
+
+.attire-item img{
+width: 20%;
+max-height: 400px;
+object-fit: cover;
+border-radius: 20px;
+
+
+}
+
+.attire-item:hover{
+transform: translateY(6px) scale(1.5);
+box-shadow: 0 4px 16px rgba( 255, 179, 0, 0.15);
+}
+
+.attire-item:hover img{
+box-shadow: 0 0 0 10px #ffb30089;
+}
